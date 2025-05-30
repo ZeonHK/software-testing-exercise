@@ -11,7 +11,8 @@ class Car:
             else:
                 self.speed += change
         else:
-            self.speed += change
+            # self.speed += change
+            self.speed += 1
 
         self.step()
 
@@ -27,3 +28,5 @@ class Car:
             raise Exception("Divide by 0! Car did not move!")
         else:
             return self.odometer / self.time
+        
+        #try1
